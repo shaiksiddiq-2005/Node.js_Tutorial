@@ -1,10 +1,6 @@
-let a= 40;
-b =30;
-c = "siddiq"
-
-console.log(a+b);
-
-console.log(c);
-
 require("./xyz.js");
-console.log("Hello, World!");
+
+let a = 20;
+let b= 30;
+
+console.log(a+b)
