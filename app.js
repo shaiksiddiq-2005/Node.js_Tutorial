@@ -7,3 +7,4 @@ console.log(a+b);
 console.log(c);
 
 require("./xyz.js");
+console.log("Hello, World!");
