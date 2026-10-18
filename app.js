@@ -16,12 +16,11 @@
 // There is an another technic for Exporting and Importing variables, functions, objects etc. from one file to another file. It is called ES6 module system. In this system we can export and import variables, functions, objects etc. from one file to another file using export and import keywords.
 // ESM (ES module )
 
-import {x,y,z} from "./xyz.js"; // we are Importing the variable x,y,z from xyz.js file. Now we can access the variable x,y,z in app.js file.
+import {Sum} from "./xyz.js"; // we are Importing the variable x,y,z from xyz.js file. Now we can access the variable x,y,z in app.js file.
 let a= 10;
 let b = 20;
-console.log(a+b);
+console.log("Hi from app.js file");
 
-console.log(x);
-console.log(y);
-console.log(z);
+
+Sum(a,b);
 

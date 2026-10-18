@@ -11,7 +11,11 @@
 // ESM (ES module )
 
 export let x= 20;
-export let y= 30;
-export let z= 40;
+
+export function Sum(a,b){
+    console.log(a+b);
+
+}
+
 
 console.log("Hello, from xyz file!");
