@@ -14,6 +14,11 @@ Multiply(a,b);
 
 
 
+setTimeout ( ()=>{
+    console.log("Heyy from setTimeout");
+},3000);
+
+
 // THREAD POOL CONCEPT
 
 process.env.UV_THREADPOOL_SIZE = 2; // This line sets the size of the thread pool used by libuv, which is the underlying library that Node.js uses for asynchronous I/O operations. By default, the thread pool size is 4, but here it is being set to 5.
@@ -43,3 +48,6 @@ crypto.pbkdf2("password", "salt", 500000, 50, "sha512", (err, key) =>{
     console.log("5 - cryptotoPBKDF2 is DONE!");
 
 });
+
+
+

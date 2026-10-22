@@ -1,0 +1,3 @@
+node_modules
+
+// so that we don't have to push the node_modules folder to GitHub.
