@@ -24,13 +24,18 @@ async function main() {
                 city: "Vizag"
   }
 
-  const result = await collection.insertMany([data]);
-  console.log("Data Inserted..", result);
+//   const result = await collection.insertMany([data]);
+//   console.log("Data Inserted..", result);
 
-  
+
   //To read the data from the Family (DataBase) -> Persons (collection) which is saved at the databases of MongoDB Atlas.
   const read = await collection.find({}).toArray();
   console.log("Data==> ", read);
+
+  // Count of the collection..
+  const count = await collection.countDocuments();
+  console.log("count=>>> ", count);
+
 
   return 'done.';
 }
